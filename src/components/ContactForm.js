@@ -46,6 +46,7 @@ const ContactForm = () => {
     setErrors(submitErrors);
     
     const hasErrors = (submitErrors.firstName === "" && submitErrors.lastName === "" && submitErrors.email === "" && submitErrors.message === "");
+    console.log(hasErrors)
     setDisplayData(hasErrors);
       
   };
